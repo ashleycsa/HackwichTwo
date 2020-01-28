@@ -18,8 +18,11 @@ class ViewController: UIViewController {
     @IBAction func pressMeButtonPressed(_ sender: Any)
     {
         print("Hello World")
-        
     }
     
+    @IBAction func pressMeNextPushed(_ sender: Any)
+    {
+        print("On My Own")
+    }
 }
 
