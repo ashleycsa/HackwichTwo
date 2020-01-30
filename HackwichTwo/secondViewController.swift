@@ -8,8 +8,10 @@
 
 import UIKit
 
-class secondViewController: UIViewController {
+class secondViewController: UIViewController
+{
 
+    @IBOutlet weak var firstLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,7 +22,13 @@ class secondViewController: UIViewController {
     @IBAction func changeColorButtonPressed(_ sender: Any)
     { //when button is pressed we want to change the background color of the view to blue
         self.view.backgroundColor=UIColor.blue
+        
+        //how to set text in UI label swift
+        self.firstLabel.text = "Hello World"
     }
+    
+    
+    
     /*
     // MARK: - Navigation
 
